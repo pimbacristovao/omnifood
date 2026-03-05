@@ -1,13 +1,12 @@
 <h1 align="center">
     <!-- ADICIONAR AQUI O LOGO DO PROJETO (ex: github/images/logo.png) -->
-    <img alt="Logo Omnifood" src="CAMINHO_DO_LOGO_AQUI" width="220px" />
+    <img alt="Logo Omnifood" src="https://github.com/pimbacristovao/omnifood/blob/main/img/omnifood-logo.png" width="220px" />
 </h1>
 
 <p align="center">
-    <!-- SUBSTITUIR USERNAME/NOME-REPOSITORIO -->
-    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/USERNAME/NOME-REPOSITORIO?style=flat-square">
-    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/USERNAME/NOME-REPOSITORIO?style=flat-square">
-    <img alt="GitHub license" src="https://img.shields.io/github/license/USERNAME/NOME-REPOSITORIO?style=flat-square"> 
+    <!--<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/pimbacristovao/omnifood?style=flat-square">-->
+    <img alt="GitHub language count" src="https://img.shields.io/badge/languages-2-blue">
+    <img alt="GitHub license" src="https://img.shields.io/github/license/mashape/apistatus?color=blue"> 
 </p>
 
 <p align="center">
@@ -15,8 +14,7 @@
   <a href="#robot-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#paintbrush-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#gear-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#gear-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
@@ -59,11 +57,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- Flexbox
-- CSS Grid
-- Media Queries
-- Design Responsivo
-- Git & GitHub
 
 ---
 
@@ -84,9 +77,9 @@ Para executar o projeto localmente:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/USERNAME/NOME-REPOSITORIO.git
+git clone https://github.com/pimbacristovao/omnifood.git
 
 # Acesse a pasta do projeto
-cd NOME-REPOSITORIO
+cd omnifood
 
 # Abra o arquivo index.html no navegador
