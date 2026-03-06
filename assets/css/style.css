@@ -5,9 +5,15 @@ FONT SIZES SYSTEM (in px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
 - Font weights:
+- Default: 400
+- Medium: 500
+-Semi-bold: 600
+- Bold: 700
 
 - Line heights:
-Default: 1
+- Default: 1
+- Small: 1.05
+- Paragraph default: 1.6
 
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -25,6 +31,8 @@ SPACING SYSTEM (px)
 --- 03: Shadows
 
 --- 04: Border-radius
+
+-Default: 9px
 
 --- 05: Whitespace
 SPACING SYSTEM (px)
@@ -49,30 +57,9 @@ body {
   color: #555;
 }
 
-.section-hero {
-  background-color: #fdf2e9;
-  padding: 9.6rem 0;
-}
-
-.hero {
-  max-width: 130rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 9.6rem;
-  align-items: center;
-}
-
-.hero-description {
-  font-size: 2rem;
-  line-height: 1.6;
-  margin-bottom: 4.8rem;
-}
-
-.hero-img {
-  width: 100%;
-}
+/* **************************** */
+/* GENERAL REUSABLE COMPONENTS  */
+/* **************************** */
 
 .heading-primary {
   font-size: 5.2rem;
@@ -120,6 +107,93 @@ body {
 
 .margin--right-small {
   margin-right: 1.6rem !important;
+}
+
+/* **************************** */
+/* HEADER  */
+/* **************************** */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+
+  /* Definiu-se a altura porque depois será fixado o cabeçalho a medida que é feito o scroll na página */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+/* **************************** */
+/* NAVIGATION   */
+/* **************************** */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #ffff;
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
+/* **************************** */
+/* HERO SECTION  */
+/* **************************** */
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
 }
 
 .delivered-meals {
