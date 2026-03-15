@@ -1,6 +1,6 @@
 <h1 align="center">
     <!-- ADICIONAR AQUI O LOGO DO PROJETO (ex: github/images/logo.png) -->
-    <img alt="Logo Omnifood" src="https://github.com/pimbacristovao/omnifood/blob/main/img/omnifood-logo.png" width="220px" />
+    <img alt="Logo Omnifood" src="https://github.com/pimbacristovao/omnifood/blob/main/assets/img/omnifood-logo.png" width="220px" />
 </h1>
 
 <p align="center">
