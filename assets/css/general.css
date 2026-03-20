@@ -25,8 +25,8 @@ SPACING SYSTEM (px)
 --- 02: Colors
 
 - Primary: #e67e22
-- Tins: #fae5d3, #fae5d3, #fdf2e9
-- Shades: #cf711f 
+- Tins: #fae5d3, #fae5d3, #fdf2e9, #eb984e
+- Shades: #cf711f, #45260a
 - Accents:
 - Greys
 #555 / #4a4a4a
@@ -34,6 +34,9 @@ SPACING SYSTEM (px)
 #6f6f6f (lightest grey allowed on #fdf2e9
 
 --- 03: Shadows
+
+ 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
 
 --- 04: Border-radius
 
@@ -135,6 +138,7 @@ body {
   margin-bottom: 3.2rem;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -143,7 +147,25 @@ body {
   text-decoration: none;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+
+  /* Only necessary for.btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
   transition: all 0.3s;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 .btn--full:link,
@@ -204,6 +226,12 @@ body {
   width: 3rem;
   height: 3rem;
   color: #e67e22;
+}
+
+*:focus {
+  outline: none;
+  /* outline: 2px solid #45260a; */
+  box-shadow: 0 0 0 0.4rem rgba(230, 125, 34, 0.5);
 }
 
 /* HELPERS/SETTINGS CLASSES */
