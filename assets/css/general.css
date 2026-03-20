@@ -31,7 +31,7 @@ SPACING SYSTEM (px)
 - Greys
 #555 / #4a4a4a
 #333
-#6f6f6f (lightest grey alowd on #fdf2e9
+#6f6f6f (lightest grey allowed on #fdf2e9
 
 --- 03: Shadows
 
@@ -77,6 +77,10 @@ body {
   display: grid;
   row-gap: 9.6rem;
   column-gap: 6.4rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
 }
 
 .grid--2-cols {
@@ -182,7 +186,27 @@ body {
   border-bottom: 1px solid transparent;
 }
 
-/* HEPERS/SETTINGS CLASSES */
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+/* HELPERS/SETTINGS CLASSES */
 .margin--right-small {
   margin-right: 1.6rem !important;
 }
