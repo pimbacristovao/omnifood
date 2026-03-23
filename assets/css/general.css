@@ -29,6 +29,8 @@ SPACING SYSTEM (px)
 - Shades: #cf711f, #45260a
 - Accents:
 - Greys
+#888
+#767676 (lightest grey allowed on #fff)
 #555 / #4a4a4a
 #333
 #6f6f6f (lightest grey allowed on #fdf2e9
@@ -96,6 +98,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-verticaly {
