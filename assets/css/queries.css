@@ -1,6 +1,6 @@
-/* rem and em do NOT depend on HTML font-size in media queries!
-Instead, 1rem = 1em = 16px 
-rem is the root font-size. em is the current font-size */
+/* Nas media queries, "rem" e "em" não dependem do tamanho da fonte definido no HTML!
+1rem = 1em = 16px 
+rem diz respeito ao tamanho de fonte definido na root. em diz respeito ao tamanho atual da fonte */
 
 /* **************************** */
 /* BELOW 1344px (Smaller desktops) */
@@ -119,5 +119,60 @@ rem is the root font-size. em is the current font-size */
 
   .btn-form {
     margin-top: 1.2rem;
+  }
+
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Oculta a navegação */
+    /* 1) Oculta o botão visualmente */
+    opacity: 0;
+
+    /* 2) Torna o botão inacessível para o mouse e teclado */
+    pointer-events: none;
+
+    /* 3) Oculta o botão para os leitores de tela */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
   }
 }
