@@ -1,5 +1,4 @@
 ///////////////////////////////////////////////////////////
-
 // Set current year
 const yearEl = document.querySelector(".year");
 if (yearEl) {
@@ -41,7 +40,32 @@ allLinks.forEach((link) => {
     }
   });
 });
+
 ///////////////////////////////////////////////////////////
+// Sticky navigation
+
+const sectionHeroEl = document.querySelector(".section-hero");
+
+const observer = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+
+    if (!ent.isIntersecting) {
+      document.body.classList.add("sticky");
+    }
+
+    if (ent.isIntersecting) {
+      document.body.classList.remove("sticky");
+    }
+  },
+  {
+    // Inside the viewport
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px", // Usou-se 80px porque foi definida a altura do header com 8rem (no style.css)
+  },
+);
+observer.observe(sectionHeroEl);
 
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
