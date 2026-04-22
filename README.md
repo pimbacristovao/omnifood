@@ -4,7 +4,6 @@
 </h1>
 
 <p align="center">
-    <!--<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/pimbacristovao/omnifood?style=flat-square">-->
     <img alt="GitHub language count" src="https://img.shields.io/badge/languages-2-blue">
     <img alt="GitHub license" src="https://img.shields.io/github/license/mashape/apistatus?color=blue"> 
 </p>
@@ -15,11 +14,6 @@
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#paintbrush-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#gear-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;
-</p>
-
-<p align="center">
-  <!-- ADICIONAR AQUI A IMAGEM MOCKUP DO PROJETO -->
-  <img alt="Mockup do projeto Omnifood" width="650px" src="CAMINHO_DO_MOCKUP_AQUI" />
 </p>
 
 ---
@@ -44,10 +38,9 @@ Durante o desenvolvimento foram trabalhados conceitos como:
 
 ## :robot: Demo
 
-Você pode acessar a versão online do projeto através do GitHub Pages:
+A aplicação está disponível para acesso público em: https://omnifood-cristovao.netlify.app
 
-<!-- ADICIONAR LINK DO GITHUB PAGES AQUI -->
-[🔗 Clique aqui para visualizar o projeto](https://omnifood-cristovao.netlify.app)
+<img alt="Initial screen Omnifood" src="https://github.com/pimbacristovao/omnifood/blob/main/assets/img/screen.png" />
 
 ---
 
@@ -57,6 +50,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JAVASCRIPT](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ---
 
@@ -64,10 +58,8 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 O design do projeto foi fornecido como parte do curso na Udemy.
 
-<!-- CASO QUEIRAS INSERIR LINK DO CURSO -->
 Curso: Build Responsive Real-World Websites with HTML and CSS  
 Instrutor: Jonas Schmedtmann  
-<!-- ADICIONAR LINK DO CURSO AQUI -->
 
 ---
 
