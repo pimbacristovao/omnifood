@@ -47,7 +47,7 @@ Durante o desenvolvimento foram trabalhados conceitos como:
 Você pode acessar a versão online do projeto através do GitHub Pages:
 
 <!-- ADICIONAR LINK DO GITHUB PAGES AQUI -->
-[🔗 Clique aqui para visualizar o projeto](LINK_DA_DEMO_AQUI)
+[🔗 Clique aqui para visualizar o projeto](https://omnifood-cristovao.netlify.app)
 
 ---
 
